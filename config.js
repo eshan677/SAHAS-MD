@@ -3,7 +3,7 @@ require("dotenv").config();
 
 module.exports = {
   //==========================================- MAIN - CONFIGS -==================================================================
-  SESSION_ID: process.env.SESSION_ID || "Put Session Id",
+  SESSION_ID: process.env.SESSION_ID || "MGth0CxY#y46vTqfers2t2AGGw3feU1jBDZZPbrIyjT-3hH56VUA",
   // ADD Your Session Id 
   MONGODB: process.env.MONGODB || "mongodb+srv://kulathungaasitha319:yjHB0DvFfStNfwPS@cluster0.3oijd.mongodb.net/",
     // ADD Your MongoDB Database URL
@@ -15,16 +15,16 @@ module.exports = {
   // public = AnyOne Working
   // inbox = Only Working  Inbox
   // groups = only working in group
-  OWNER_NUMBER: process.env.OWNER_NUMBER || "94718913389",
+  OWNER_NUMBER: process.env.OWNER_NUMBER || "94703076391",
   //========================================- OTHER - CONFIGS -=====================================================================
   AUTO_VOICE: process.env.AUTO_VOICE || "true",
   ANTI_BAD_WORDS_ENABLED: process.env.ANTI_BAD_WORDS_ENABLED || "true",
   AUTO_READ_STATUS: process.env.AUTO_READ_STATUS || "true",
   AUTO_READ_CMD: process.env.AUTO_READ_CMD || "true",
-  ANTI_BAD_WORDS: (process.env.ANTI_BAD_WORDS || "pakayo,huththo").split(','),
-  ANTI_LINK: process.env.ANTILINK || "true",
+  ANTI_BAD_WORDS: (process.env.ANTI_BAD_WORDS || "pakayo,huththo,fuck,http").split(','),
+  ANTI_LINK: process.env.ANTILINK || "fales",
   ALWAYS_ONLINE: process.env.ALWAYS_ONLINE || "true",
-  ALWAYS_TYPING: process.env.ALWAYS_TYPING || "true",
+  ALWAYS_TYPING: process.env.ALWAYS_TYPING || "fales",
   ALWAYS_RECORDING: process.env.ALWAYS_RECORDING || "true",
   ANTI_BOT: process.env.ANTI_BOT || "true",
   ANTI_DELETE: process.env.ANTI_DELETE || "true",
